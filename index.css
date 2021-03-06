@@ -5,7 +5,11 @@ body{
 #d1{
     
     background-image: url(landing.jpg);
-    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    height: auto;
     
     
 }
@@ -14,19 +18,32 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
+    height: 20%;
 
 }
-.menu{
-    width: 30px;
-    height: 5px;
-    background-color: black;
-    margin: 6px;
-    position: fixed;
-    top: 1.25em;
-    left: 1.25em;
-          
+
+        
+#menu{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+
 }
-
-
+#d1 p{
+    
+    padding: 20px;
+       
+}
+#text{
+    color: white;
+    
+}
+.fontw{
+    font-weight: bold;
+}
+.d-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
 
