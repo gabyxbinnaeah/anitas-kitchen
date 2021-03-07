@@ -106,6 +106,10 @@ body{
     display: grid;
     gap: 50px;
     grid-template-columns: repeat( 2,1fr );
+    margin-bottom: 12px;
+}
+.row #image-container{
+    align-self: flex-end;
 }
  .container{
     padding:20px 120px ;
@@ -116,10 +120,21 @@ body{
     align-items: flex-start;
     flex-direction: column;
 }
-.
+
+#image-container{
+    display: flex;
+    grid-template-rows: repeat( 2, 1fr);  
+    align-items: flex-start;
+    flex-direction: row;
+    float: right;
+    
+}
 .item-descr{
     padding: 0px 10px;
 }
 h2{
     
+}
+#image-container img{
+    width: 50%;
 }
