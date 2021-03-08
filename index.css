@@ -154,3 +154,79 @@ h2{
     margin-bottom: 10px;
     
 }
+.tabheader{
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    
+    
+}
+.tablink{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-right: 1px solid gray;
+    text-align: center;
+    padding: 10px;
+}
+.tab-active{
+    background-color: white;
+    color: orange;
+}
+.tabcontent{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: white;
+}
+.paralax{
+    background-image: url(foodsBg.jpg);
+
+}
+.tabimage img{
+  width: 100%;
+  
+  
+}
+.tabimage{
+    text-align: center;
+    color: orange;
+}
+
+.customer-rev{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: center;
+}
+.c-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.customers-images{
+    position: relative; 
+    display: grid; 
+    grid-template-columns: 1fr 10fr 1fr;
+    text-align: center;
+}
+.prev{
+    position: absolute;
+}
+.next{
+    position: absolute;
+    right: 10px;
+}
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 90px;
+ }
+    
+
+
